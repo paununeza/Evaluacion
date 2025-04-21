@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=swap');
+
+body {
+  background-color: #eebbc3;
+  color: #232946;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #232946;
+}
+
+p, .lead, .text-body-secondary {
+  color: #232946 !important;
+  font-family: 'Inclusive Sans';
+}
+
+
+a, .nav-link {
+    color: #232946;
+}
+
+.nav-link.active {
+    color: #8ebace !important;
+    font-weight: bold;
+  }
+
+a:hover, .nav-link:hover {
+    color: #1a1e33;
+}
+
+.navbar, .bg-body-tertiary {
+    background-color: #eebbc3 !important;
+}
+
+.card {
+    background-color: #ffe9ac;
+    border: none;
+}
+
+.card .card-text,
+.card .btn-outline-secondary,
+.card small {
+  color: #232946;
+}
+
+.card .btn-outline-secondary {
+  border-color: #232946;
+}
+
+.card .btn-outline-secondary:hover {
+  background-color: #8ebace;
+  color: #fffffe;
+}
+
+footer a {
+    color: #232946;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #8ebace;
+}
+
+.btn-primary{
+    background-color: #232946 !important;
+    border-color: #232946 !important;
+    color: #fffffe !important;
+}
+
+.btn-secondary{
+    background-color: #ffe9ac !important;
+    border-color: #232946 !important;
+    color: #232946 !important;
+}
+
+.btn-primary:hover, .btn-secondary:hover{
+    background-color: #8ebace !important;
+    border-color: #232946 !important;
+    color: #fffffe !important;
+}

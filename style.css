@@ -1,0 +1,63 @@
+body {
+  background-color: #232946;
+  color: #b8c1ec;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fffffe;
+}
+
+.navbar, .bg-body-tertiary {
+  background-color: #232946 !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #b8c1ec !important;
+}
+
+.nav-link.active {
+  color: #f5a5ae !important;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  background-color: #eebbc3 !important;
+  border-color: #eebbc3 !important;
+}
+
+.custom-btn {
+  background-color: #eebbc3;
+  color: #232946;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #f5a5ae;
+  color: #232946;
+}
+
+.text-bg-dark {
+  background-color: #121629 !important;
+  color: #b8c1ec !important;
+}
+
+footer {
+  color: #b8c1ec;
+  border-top: 1px solid #b8c1ec;
+}
+
+/* Borde segunda columna */
+  .border {
+    border-color: #b8c1ec !important;
+  }
+
+/* Cambiar color botón secundario */
+  #btn1 {
+    background-color: #b8c1ec !important;
+    border-color: #b8c1ec !important;
+    color: #232946;
+  }
+  #btn1:hover {
+    background-color: #ffe9ac !important;
+    border-color: #ffe9ac !important;
+  }

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=swap');
+
+main, body {
+  background-color: #d4d8f0 !important;
+  color: #232946 !important;
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+.bg-body-tertiary {
+  background-color: #eebbc3 !important;
+  color: #232946;
+}
+
+.bg-body-secondary{
+  background-color:  #ffe9ac !important;
+  color: #232946 !important;
+}
+
+.border{
+  background-color: #fffffe !important;
+}
+
+/* Blog post titles inside cards */
+.card-title,
+.blog-post h2,
+.blog-post h3 {
+  color: #232946;
+  font-family: 'Inclusive Sans';
+}
+
+.navbar {
+  background-color: #d4d8f0 !important;
+}
+.navbar-brand, .nav-link {
+  color: #232946 !important;
+}
+
+.nav-link.active {
+  color: #f5a5ae !important;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  background-color: #eebbc3 !important;
+  border-color: #eebbc3 !important;
+} 
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #232946;
+}
+
+/* Subheadings */
+.fst-italic,
+.text-body-secondary {
+  color: #232946 !important;
+}
+
+/* Buttons */
+.btn-outline-primary {
+  border-color: #eebbc3;
+  color: #eebbc3;
+}
+.btn-outline-primary:hover {
+  background-color: #ffe9ac;
+  color: #d4d8f0;
+  border-color: #d4d8f0;
+}
+
+/* Highlight links */
+a {
+  color: #f07c8d;
+}
+a:hover {
+  color: #ffe9ac;
+}
