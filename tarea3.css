@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=swap');
+
+body {
+
+    font-family: 'Inclusive Sans';
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/fondo3.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+
+}
+
+header {
+    background-color: #FAF1E2;
+    color: #635CAA;
+    padding: 10px 0;
+    text-align: center;
+    
+
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #635CAA;
+    text-decoration: none;
+}
+
+.banner {
+    padding: 20px;
+    text-align: center;
+    background-image: url('./img/fondo3.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.contenido {
+    padding: 20px;
+    background-color:#FAF1E2;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenido article {
+    margin-bottom: 20px;
+}
+
+.contenido article img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #635CAA;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}
